@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '1',
+    tituloUnidad: 'Recolección y análisis de requisitos',
   },
   menuPrincipal: {
     menu: [
@@ -15,20 +15,44 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Técnicas de recopilación de requisitos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Entrevistas',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Encuestas y cuestionarios',
             hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Observación directa',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Talleres de trabajo (<em>workshops</em>)',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Revisión de documentos existentes',
+            hash: 't_1_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: '<em>Brainstorming</em> y <em>Focus Groups</em>',
+            hash: 't_1_6',
           },
         ],
       },
@@ -36,26 +60,33 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Priorización de necesidades',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Criterios para priorizar (valor de negocio, urgencia, viabilidad técnica)',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Métodos de priorización',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Subtítulo tema',
+            titulo: 'Herramientas de apoyo en la priorización',
             hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Resolución de conflictos entre prioridades',
+            hash: 't_2_4',
           },
         ],
       },
@@ -63,20 +94,26 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Herramientas de análisis',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Diagramas de casos de uso',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Historias de usuario',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Matriz de trazabilidad de requisitos',
+            hash: 't_3_3',
           },
         ],
       },
@@ -118,26 +155,101 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Gil Pascual, J. A. (2016). Técnicas e instrumentos para la recogida de información: ( ed.). UNED - Universidad Nacional de Educación a Distancia.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/48876',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Fresno Chávez, C. (2018). ¿Cómo gestionar la información científico-técnica?: ( ed.). Ciudad Educativa.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/36730',
+    },
+    {
+      referencia:
+        'Genero Bocco, M. Cruz Lemus, J. A. & Piattini Velthuis, M. G. (2014). Métodos de investigación en ingeniería del <em>Software</em>: ( ed.). RA-MA Editorial.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106450',
+    },
+    {
+      referencia:
+        'Echeverri, J. Aristizábal, M. & González, L. (2013). Reflexiones sobre ingeniería de requisitos y pruebas de <em>Software</em>: ( ed.). Corporación Universitaria Remington. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/68913 ',
+    },
+    {
+      referencia:
+        'Universidad Politécnica Salesiana. (2021). Priorización de requisitos para una adecuada calidad de <em>Software</em>. ',
+      link:
+        'https://dspace.ups.edu.ec/bitstream/123456789/20957/1/UPS-GT003395.pdf',
+    },
+    {
+      referencia:
+        'Zapata Jaramillo, C. M. (2006). Alineación entre metas organizacionales y elicitación de requisitos del <em>Software</em>: ( ed.). Red Dyna.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/304',
+    },
+    {
+      referencia:
+        'Genero Bocco, M. Cruz Lemus, J. A. & Piattini Velthuis, M. G. (2014). Métodos de investigación en ingeniería del <em>Software</em>: ( ed.). RA-MA Editorial.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106450',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Análisis de requisitos',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'proceso mediante el cual se estudian, refinan y documentan las necesidades y expectativas de los usuarios respecto a un sistema o producto.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Caso de uso',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'técnica de recopilación que describe cómo los usuarios interactúan con el sistema para lograr un objetivo específico.',
+    },
+    {
+      termino: 'Entrevistas estructuradas',
+      significado:
+        'método de recopilación de requisitos en el que se realizan preguntas previamente definidas a los usuarios o interesados para obtener información precisa. ',
+    },
+    {
+      termino: 'Encuestas',
+      significado:
+        'herramienta utilizada para recopilar datos de una amplia audiencia mediante cuestionarios diseñados para identificar necesidades y requisitos.',
+    },
+    {
+      termino: 'Escucha activa',
+      significado:
+        'habilidad utilizada durante la recopilación de requisitos que implica prestar atención completa al interlocutor, comprendiendo sus necesidades explícitas e implícitas.',
+    },
+    {
+      termino: 'Historias de usuario',
+      significado:
+        'Descripciones breves de funcionalidades vistas desde la perspectiva del usuario final, utilizadas para entender mejor las necesidades del cliente.',
+    },
+    {
+      termino: 'Matriz de priorización',
+      significado:
+        'herramienta de análisis que permite clasificar y ordenar requisitos o necesidades según criterios como el valor, costo o riesgo.',
+    },
+    {
+      termino: 'Priorización MoSCoW',
+      significado:
+        'Técnica que categoriza los requisitos en cuatro grupos: <em>Must have</em> (deben tener), <em>Should have</em> (deberían tener), <em>Could have</em> (podrían tener) y <em>Won’t have</em> (no se tendrán por ahora).',
+    },
+    {
+      termino: 'Prototipado',
+      significado:
+        'Método de recopilación que consiste en crear representaciones visuales preliminares de un sistema para clarificar y validar requisitos.',
+    },
+    {
+      termino: 'Reuniones de enfoque (<em>Focus Group</em>)',
+      significado:
+        'Técnica que reúne a usuarios o interesados en sesiones grupales para discutir y explorar necesidades comunes sobre un sistema.',
+    },
+    {
+      termino: '<em>Software</em> de gestión de requisitos',
+      significado:
+        'Aplicaciones diseñadas para documentar, organizar, rastrear y priorizar requisitos a lo largo del ciclo de vida del proyecto.',
+    },
+    {
+      termino: 'Taller de requisitos (<em>Workshop</em>)',
+      significado:
+        'Actividad colaborativa donde los interesados trabajan juntos para definir, refinar y priorizar los requisitos del sistema.',
     },
   ],
 }
