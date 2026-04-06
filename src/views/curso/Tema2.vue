@@ -246,7 +246,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/ccSS4C5GYxs?si=l7pZASsTR5A1-h9y" target="_blank" rel="noopener noreferrer") MobilizaAcademy (2021, 23 de julio) Las mejores metodologías ágiles para el Desarrollo de <em>Software</em>. [Video] YouTube. 
+              a(href="https://www.youtube.com/watch?v=A3ETjptfy6w" target="_blank" rel="noopener noreferrer") Kanban Tool. (2021). ¿Qué es Scrumban? Kanban y Scrum combinados [Video]. YouTube.
 
 
 
